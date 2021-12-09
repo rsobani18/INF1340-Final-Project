@@ -35,8 +35,9 @@ class ColourPicker:
 
   # Function to get pixel location from user's click
   def pixel_Location(event, x, y, param):
-    if event == cv2.EVENT_LBUTTONDOWN:
-      print(x,y) 
+        print("Click x & y Location:", x,y)
+        B,G,R = img[y,x]
+        print("BGR colours:", B,G,R) 
 
   # OpenCV image 
   img = cv2.imread(img_path, -1)
