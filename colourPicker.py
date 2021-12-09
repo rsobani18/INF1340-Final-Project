@@ -17,12 +17,14 @@ class ColourPicker:
 
 # OpenCV Ref Doc: https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_gui/py_mouse_handling/py_mouse_handling.html
 
-#1.	Get colours dataset – has RGB and hex values - DONE
-#2.	User enters image to check colours in Tkinter
-#3.	Show image selected by user in OpenCV within Tkinter
-#4.	At click by user show colour details
-#5. Get click value - DONE
-#6.	Determine right colour based on user selection by choosing between the smallest distance
+#1.	Get colours dataset & test image – has RGB and hex values - DONE
+#2.	User enters image to check colours in Tkinter - Rahima
+#3.	Show image selected by user in OpenCV within Tkinter - Rahima
+#4.	At click by user show colour details - Rahima
+#5. Get click value - Shauna
+#6.	Determine right colour based on user selection by choosing between the smallest distance - Shamsa
+#7. At user click of Esc key kill window - Shamsa
+#8. Add error message if image path is invalid - Shamsa
 
 
 # Get image file path from user
