@@ -23,9 +23,25 @@ class ColourPicker:
 #4.	At click by user show colour details - Rahima
 #5. Get click value - Shauna
 #6.	Determine right colour based on user selection by choosing between the smallest distance - Shamsa
+
+def getColorName(R,G,B):
+    minimum = 10000
+    for i in range(len(csv)):
+        d = abs(R- int(csv.loc[i,"R"])) + abs(G- int(csv.loc[i,"G"]))+ abs(B- int(csv.loc[i,"B"]))
+        if(d<=minimum):
+            minimum = d
+            cname = csv.loc[i,"color_name"]
+    return cname
 #7. At user click of Esc key kill window - Shamsa
+
+if cv2.waitKey(20) & 0xFF ==27:
+        break
 #8. Add error message if image path is invalid - Shamsa
 
+try:
+    a = int(input()) #not sure what to put here? 
+except:
+    raise Exception('This image path is invalid')
 
 # Get image file path from user
   img_path = ("Enter the filename for the image:")
