@@ -8,20 +8,28 @@ import os.path
 
 ###class
 ##class ColourPicker:
-##    
-###init function
-##  def __init__(self):
-##    window = Tk()
-##    window.title("Colour Picker")
-##    window.geometry("600x600") 
-##
-##    #create a square window
-##    window.configure(background = 'white')
+
+#create init function?
+#add comments
+#change variable names
+#Do we need a window that asks for file input?
+#If so we should try to fix the fileInput code and use that:
+##current issue in fileInput is not being able to use the img_path in fileExist 
+#only way to exit the loop right now is to press the ESC button, include in the READ.me
+
+#def fileInput():
+    #window = Tk()
+    #window.title("Choose image file")
+    #window.geometry("400x400")
+    #img_path = StringVar()
+    #Entry(window, textvariable = img_path).pack()
+    #Label(window, text = "Enter the filename for the image:").pack()
+    #Button(window, text = "Open", command = fileExists).pack()
 
 def fileExists():
   #img_path = img_filepath.get()
-    img_path = input("Enter the filename for the image:")
-    if os.path.isfile(img_path):
+    img_path = input("Enter the filename for the image: ")
+    if os.path.isfile((img_path)):
         openCVWindow(img_path)
     else:
         messagebox.showerror('File Error', 'This image path is invalid')
@@ -79,13 +87,24 @@ xpostion = 0
 yposition = 0
 clicked = False
 
-
+#fileInput()
 fileExists()
 
 img = img
-cv2.imshow("Colour Detection", img)
+cv2.namedWindow("Colour Detection")
+#cv2.imshow("Colour Detection", img)
 cv2.setMouseCallback("Colour Detection", pixel_Location)
-cv2.waitKey(0)
 
+while(1) :
+    cv2.imshow("Colour Detection", img)
+    if(clicked):
+        cv2.rectangle(img, (10, 10), (375, 50), (B, G, R), -1)
+        text = getColourName(R, G, B) + " Red= " + str(R) + " Green= " + str(G) + " Blue= " + str(B)
+        cv2.putText(img, text, (15, 25), 2, 0.4, (255, 255, 255), 1, cv2.LINE_AA)
+        if (R + G + B >= 600):
+            cv2.putText(img, text, (15, 25), 2, 0.4, (0, 0, 0), 1, cv2.LINE_AA)
+        clicked = False
+    if cv2.waitKey(20) & 0xFF == 27:
+        break
 cv2.destroyAllWindows()
 
