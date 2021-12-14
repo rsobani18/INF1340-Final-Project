@@ -34,6 +34,10 @@ The library imports messagebox module to display message boxes in the python app
 ### 6. <img width="168" alt="Screen Shot 2021-12-13 at 9 21 32 PM" src="https://user-images.githubusercontent.com/95595459/145921511-46989ef3-e600-444a-b832-be9bba164cbf.png">
 The library imports os.path as a path module suitable for the operating system 
 
+## References
+https://data-flair.training/blogs/project-in-python-colour-detection/#google_vignette
+https://github.com/naitik2314/Color-Detection-Python-GUI
+https://github.com/shreyashc01/Object-detection-and-color-identification/blob/main/open-cv%20intern.py
 
 
 
