@@ -17,16 +17,22 @@ Our group chose a color detection app as our project. Color detection is the pro
 ## Installation 
 
 The library installs numpy as a python package. 
+<img width="479" alt="Screen Shot 2021-12-13 at 9 20 57 PM" src="https://user-images.githubusercontent.com/95595459/145921454-653f5257-ed36-478b-9648-6950a032f536.png">
 
 The library installs OpenCV as a python package 
+<img width="228" alt="Screen Shot 2021-12-13 at 9 21 04 PM" src="https://user-images.githubusercontent.com/95595459/145921473-983d9872-95b5-4a56-b9f2-a797d3b99ca7.png">
 
 The library installs pandas into python script. 
+<img width="198" alt="Screen Shot 2021-12-13 at 9 21 19 PM" src="https://user-images.githubusercontent.com/95595459/145921486-c7f115de-f9b3-44fc-858b-43c4488ef4c8.png">
 
 The library imports every exposed object in Tkinter into current namespace 
+<img width="211" alt="Screen Shot 2021-12-13 at 9 21 23 PM" src="https://user-images.githubusercontent.com/95595459/145921491-d34bd697-78bb-4e63-83fc-0406659879bd.png">
 
 The library imports messagebox module to display message boxes in the python application. 
+<img width="273" alt="Screen Shot 2021-12-13 at 9 21 27 PM" src="https://user-images.githubusercontent.com/95595459/145921498-57914391-5033-4583-b3a9-fcde0375f86d.png">
 
 The library imports os.path as a path module suitable for the operating system 
+<img width="168" alt="Screen Shot 2021-12-13 at 9 21 32 PM" src="https://user-images.githubusercontent.com/95595459/145921511-46989ef3-e600-444a-b832-be9bba164cbf.png">
 
 
 
