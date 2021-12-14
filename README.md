@@ -13,3 +13,6 @@ Our group chose a color detection app as our project. Color detection is the pro
 <img src= "https://github.com/rsobani18/INF1340-Final-Project/blob/adb7db192e16a5e97fd7123878628b17b6b6c903/Demo3.png" width = "400" height= "400">
 
 ### 4. Press the ESC button on your keyboard to exit the program
+
+## Installation 
+
