@@ -1,11 +1,14 @@
-API documentation
-List all the functions with an explanation of what each function does, the arguments of the function and what it returns.
+# API documentation
+Lists all the functions with an explanation of what each function does, the arguments of the function and what it returns.
 
 
-1.Function:  def fileExists()
-Explanation: define a function that checks whether the file exists or not and checks if the file name entered by the user is a valid file
-Arguments: none
-Output:runs the openCVWindow function if file can be opened. If file cannot, show message: 'File Error', 'This image path is invalid'
+## 1.Function:  def fileExists()
+### Explanation: 
+Define a function that checks whether the file exists or not and checks if the file name entered by the user is a valid file
+### Arguments: 
+none
+### Output:
+Runs the openCVWindow function if file can be opened. If file cannot, show message: 'File Error', 'This image path is invalid'
 
 
 2.Function: def openCVWindow(img_path)
