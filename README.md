@@ -35,9 +35,10 @@ The library imports messagebox module to display message boxes in the python app
 The library imports os.path as a path module suitable for the operating system 
 
 ## References
-https://data-flair.training/blogs/project-in-python-colour-detection/#google_vignette
-https://github.com/naitik2314/Color-Detection-Python-GUI
-https://github.com/shreyashc01/Object-detection-and-color-identification/blob/main/open-cv%20intern.py
-
+- https://data-flair.training/blogs/project-in-python-colour-detection/#google_vignette
+- https://github.com/naitik2314/Color-Detection-Python-GUI
+- https://github.com/shreyashc01/Object-detection-and-color-identification/blob/main/open-cv%20intern.py
+- https://www.delftstack.com/howto/python-tkinter/how-to-set-font-of-tkinter-text-widget/#:~:text=Set%20Font%20for%20Tkinter%20Text%20Widget%20import%20tkinter,be%20Courier%2C%20italic%20with%20the%20size%20of%2016.
+- https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_gui/py_mouse_handling/py_mouse_handling.html
 
 
