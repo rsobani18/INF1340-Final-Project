@@ -16,3 +16,17 @@ Our group chose a color detection app as our project. Color detection is the pro
 
 ## Installation 
 
+The library installs numpy as a python package. 
+
+The library installs OpenCV as a python package 
+
+The library installs pandas into python script. 
+
+The library imports every exposed object in Tkinter into current namespace 
+
+The library imports messagebox module to display message boxes in the python application. 
+
+The library imports os.path as a path module suitable for the operating system 
+
+
+
