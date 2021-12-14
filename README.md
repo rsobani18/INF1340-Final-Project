@@ -4,9 +4,9 @@ Our group chose a color detection app as our project. Color detection is the pro
 
 ## Colour Picker Demo
 ### 1. Run the python file and input the file name in the window
-<img src= "https://github.com/rsobani18/INF1340-Final-Project/blob/adb7db192e16a5e97fd7123878628b17b6b6c903/Demo1.PNG" width= "1000" height="300">
+<img src= "https://github.com/rsobani18/INF1340-Final-Project/blob/8fa0a29e4cabc87aaac175f0f10556973c5d922a/Demo1.PNG" width= "440" height="250">
 
-### 2. Press enter to open the file in the OpenCV window
+### 2. Click 'Open' to open the file in the OpenCV window
 <img src= "https://github.com/rsobani18/INF1340-Final-Project/blob/adb7db192e16a5e97fd7123878628b17b6b6c903/Demo2.PNG" width= "400" height="400">
 
 ### 3. Click on any part of the picture to get the colour name and RGB values displayed on a label at the top left
